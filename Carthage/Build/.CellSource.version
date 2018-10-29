@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.1.2",
+  "iOS" : [
+    {
+      "name" : "CellSource",
+      "hash" : "580771e1844bf53f03ce8b5a7c758b5e87900cb0c22e3cc16e64c76d58068833"
+    }
+  ]
+}
