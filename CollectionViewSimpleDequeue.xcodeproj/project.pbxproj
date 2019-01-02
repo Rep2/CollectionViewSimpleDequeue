@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F6149FE02186861900C178AA /* CollectionViewSimpleDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = F6149FDE2186861900C178AA /* CollectionViewSimpleDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6149FE72186863700C178AA /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6149FE62186863700C178AA /* UICollectionView.swift */; };
-		F6149FEB218686EF00C178AA /* CellSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6149FEA218686EF00C178AA /* CellSource.framework */; };
+		F68AE69121DD6F9300873C77 /* CellSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68AE68721DD6F9300873C77 /* CellSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +17,9 @@
 		F6149FDE2186861900C178AA /* CollectionViewSimpleDequeue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewSimpleDequeue.h; sourceTree = "<group>"; };
 		F6149FDF2186861900C178AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6149FE62186863700C178AA /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
-		F6149FEA218686EF00C178AA /* CellSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CellSource.framework; path = Carthage/Build/iOS/CellSource.framework; sourceTree = "<group>"; };
+		F68AE68721DD6F9300873C77 /* CellSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSource.swift; sourceTree = "<group>"; };
+		F68AE68821DD6F9300873C77 /* CellSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSource.h; sourceTree = "<group>"; };
+		F68AE68921DD6F9300873C77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6149FEB218686EF00C178AA /* CellSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +36,7 @@
 		F6149FD12186861900C178AA = {
 			isa = PBXGroup;
 			children = (
+				F68AE68521DD6F9300873C77 /* CellSource */,
 				F6149FDD2186861900C178AA /* CollectionViewSimpleDequeue */,
 				F6149FDC2186861900C178AA /* Products */,
 				F6149FE9218686EF00C178AA /* Frameworks */,
@@ -62,9 +64,26 @@
 		F6149FE9218686EF00C178AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6149FEA218686EF00C178AA /* CellSource.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68AE68521DD6F9300873C77 /* CellSource */ = {
+			isa = PBXGroup;
+			children = (
+				F68AE68621DD6F9300873C77 /* CellSource */,
+			);
+			path = CellSource;
+			sourceTree = "<group>";
+		};
+		F68AE68621DD6F9300873C77 /* CellSource */ = {
+			isa = PBXGroup;
+			children = (
+				F68AE68721DD6F9300873C77 /* CellSource.swift */,
+				F68AE68821DD6F9300873C77 /* CellSource.h */,
+				F68AE68921DD6F9300873C77 /* Info.plist */,
+			);
+			path = CellSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68AE69121DD6F9300873C77 /* CellSource.swift in Sources */,
 				F6149FE72186863700C178AA /* UICollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
