@@ -9,8 +9,18 @@
 /* Begin PBXBuildFile section */
 		F6149FE02186861900C178AA /* CollectionViewSimpleDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = F6149FDE2186861900C178AA /* CollectionViewSimpleDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6149FE72186863700C178AA /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6149FE62186863700C178AA /* UICollectionView.swift */; };
-		F68AE69121DD6F9300873C77 /* CellSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68AE68721DD6F9300873C77 /* CellSource.swift */; };
+		F67DD6F121DD76FF00EB7F36 /* CellSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68AE68721DD6F9300873C77 /* CellSource.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F67DD6EF21DD76C400EB7F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6149FD22186861900C178AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67DD6E421DD74DB00EB7F36;
+			remoteInfo = CellSource;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F6149FDB2186861900C178AA /* CollectionViewSimpleDequeue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollectionViewSimpleDequeue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +139,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F67DD6F021DD76C400EB7F36 /* PBXTargetDependency */,
 			);
 			name = CollectionViewSimpleDequeue;
 			productName = CollectionViewSimpleDequeue;
@@ -232,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68AE69121DD6F9300873C77 /* CellSource.swift in Sources */,
 				F6149FE72186863700C178AA /* UICollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,10 +251,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67DD6F121DD76FF00EB7F36 /* CellSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F67DD6F021DD76C400EB7F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67DD6E421DD74DB00EB7F36 /* CellSource */;
+			targetProxy = F67DD6EF21DD76C400EB7F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F6149FE12186861900C178AA /* Debug */ = {
